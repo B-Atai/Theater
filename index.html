@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- header -->
-    <div class="header">
+    <header class="header">
         <div class="container">
             <div class="header__items">
                 <nav class="header__nav">
@@ -49,10 +49,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </header>
     <!-- /header -->
     <!-- sidebar -->
-    <div class="sidebar">
+    <section class="sidebar">
         <div class="sidebar__items">
             <div class="sidebar__img">
                 <a href="#"><img class="icons" src="./img/instagram--active.svg" alt="instagram"></a>
@@ -65,7 +65,53 @@
                 <a href="#" class="text__link">контактная информация</a>
             </div>
         </div>
-    </div>
+    </section>
     <!-- /sidebar -->
+    <!-- hero -->
+    <section class="hero">
+        <div class="hero__content">
+            <div class="container">
+                <div class="hero__items">
+                    <div class="left__items">
+                        <div class="left__items__title">
+                            <h1>Большой театр</h1>
+                        </div>
+                        <div class="left__items__text">
+                            <p>Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года —
+                                Петербургская консерватория.
+                                Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших
+                                театральных зданий в Европе XVIII.</p>
+                        </div>
+                        <a href="#">
+                            <button class="hero__btn">Афиша</button>
+                        </a>
+                    </div>
+                    <div class="right__items">
+                        <div class="slider">
+                            <div class="slider__item">
+                                <img class="fr__img" src="./css/img/book.png" alt="" width="320">
+                            </div>
+                            <div class="slider__item">
+                                <img class="bg__img" src="./css/img/book2.png" alt="" width="320">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /hero -->
+
+    
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/burger.js"></script>
+    <script>
+        $('.slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1
+        });
+    </script>
 </body>
 </html>
