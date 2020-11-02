@@ -1,0 +1,58 @@
+.rating{
+    margin: 100px 0;
+    min-height: 600px;
+}
+
+.rating__items{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.rating__bg{
+    min-height: 600px;
+    width: 100%;
+    background-image: url(./img/rating.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating__years{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    font-family: Open Sans Condensed;
+    font-size: 72px;
+    line-height: 98px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D1A954;
+}
+
+.rating__stars{
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+.star{
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+
+.rating__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
