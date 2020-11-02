@@ -1,6 +1,7 @@
 @import './header.css';
 @import './sidebar.css';
 @import './hero.css';
+@import './about.css';
 
 html{
     scroll-behavior: smooth;

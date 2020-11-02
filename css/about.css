@@ -1,0 +1,83 @@
+.about{
+    margin-top: 100px;
+}
+
+.about__items{
+    display: flex;
+    align-items: center;
+}
+
+.about__text{
+    width: 36%;
+    height: 280px;
+}
+
+.about__numbers{
+    padding-left: 80px;
+    width: 34%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.numbers__chairs{
+    color:#fff;
+    font-family: Open Sans Condensed;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
+.numbers__history{
+    color:#fff;
+    font-family: Open Sans Condensed;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+}
+
+.about__img{
+    width: 30%;
+}
+
+.about__title{
+    padding-bottom: 80px;
+    font-family: Open Sans Condensed;   
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.about__text{
+    color: white;
+}
+
+.text__title{
+    padding-bottom: 10px;
+    font-family: Open Sans Condensed;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.numbers__title{
+    color: white;
+    padding-bottom: 10px;
+    font-family: Open Sans Condensed;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;  
+}
+
+.about__text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}

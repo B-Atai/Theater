@@ -12,8 +12,7 @@
 }
 
 .hero__btn {
-    width: 150px;
-    height: 60px;
+    padding: 20px 40px;
     background-color: #D1A954;
     color: white;
     font-style: normal;
