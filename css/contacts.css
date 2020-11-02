@@ -1,0 +1,135 @@
+.contacts {
+    max-height: 400px;
+}
+
+.contact__items {
+    display: flex;
+}
+
+.col-3 {
+    width: 25%;
+    margin-right: 100px;
+}
+
+.col-9{
+    display: flex;
+}
+.col-5 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.contacts__input{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contacts__text{
+    width: 100%;
+    height: 50%;
+}
+
+.block__items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.small__input {
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    color: white;
+}
+
+.items__input {
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    color: white;
+    margin: 0 20px 20px 0;
+    padding: 15px 0;
+}
+
+.block__text p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #989898;
+}
+
+.col-4{
+    width: 40%;
+}
+
+.col-4__block{
+    display: flex;
+    flex-direction: column;
+}
+
+.big__input {
+    background: #444444;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    padding: 0 150px 100px 15px;
+    margin-bottom: 20px;
+}
+
+.block__btn{
+    width: 100%;
+    text-align: right;
+}
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    color: white;
+    background-color: #D1A954;
+}
+
+.contacts__title {
+    padding-bottom: 50px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.phone__number {
+    padding-bottom: 20px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.button {
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #D1A954;
+    color: white;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
