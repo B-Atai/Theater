@@ -37,6 +37,7 @@ p {
     color: #D1A954;
  }
 
+ /* media */
  @media screen and (max-width:768px) {
     body {
         margin: 0 auto;
@@ -228,5 +229,14 @@ p {
         background-color: #D1A954;
     }
 
+    .col-3__numbers{
+        margin: 0 25px;
+    }
+
+    .footer__items{
+        margin: 0 20px;
+    }
+
     /* /contacts */
 }
+/* /media */
